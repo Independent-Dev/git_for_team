@@ -12,6 +12,8 @@
   * commit
   * checkout
     * 'In Git terms, a "checkout" is the act of switching between different versions of a target entity. The git checkout command operates upon three distinct entities: files, commits, and branches.'([출처](https://www.atlassian.com/git/tutorials/using-branches/git-checkout))
+  * merge
+  * pull
 * file status // 내용 보완 필요
   * 1)untracked: 새로 만들어진 이후 (아직 add 되지 않아) git이 관리하고 있지 않은 상태.
   * tracked
