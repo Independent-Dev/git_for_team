@@ -1,3 +1,4 @@
 rebase test 2
 upstream1
 upstream2
+master
