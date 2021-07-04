@@ -13,3 +13,4 @@
 * git remote add 원격저장소_닉네임 원격저장소_url
   * 원격저장소 주소를 알려주기 위해 쓰는 명령어. 원격저장소_닉네임으로 원격저장소_url의 원격저장소를 추가하라는 의미
   * ex) git remote add origin https://github.com/Independent-Dev/git_for_team.git
+    * 닉네임이 중복되지 않게 하여 하나 이상의 원격저장소를 연결할 수 있음. 

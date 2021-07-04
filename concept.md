@@ -14,6 +14,8 @@
     * 'In Git terms, a "checkout" is the act of switching between different versions of a target entity. The git checkout command operates upon three distinct entities: files, commits, and branches.'([출처](https://www.atlassian.com/git/tutorials/using-branches/git-checkout))
   * merge
   * pull
+  * rebase: 머지와 마찬가지로 재배치하고(새로운 베이스로 삼고) 싶은 커밋 또는 브랜치에 명령을 실행해야함.
+    * [더 많은 정보](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 * file status // 내용 보완 필요
   * 1)untracked: 새로 만들어진 이후 (아직 add 되지 않아) git이 관리하고 있지 않은 상태.
   * tracked
