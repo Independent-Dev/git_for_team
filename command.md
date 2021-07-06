@@ -15,4 +15,6 @@
   * ex) git remote add origin https://github.com/Independent-Dev/git_for_team.git
     * 닉네임이 중복되지 않게 하여 하나 이상의 원격저장소를 연결할 수 있음. 
 * git amend
-  * 이전 커밋(버전관리 파일 종류, 내용, 커밋 메시지) 수정
+  * 이전 커밋(버전관리 파일 종류, 내용, 커밋 메시지) 수
+* git cherry-pick
+  * 다른 브랜치에 있는 커밋을 선택적으로 내 브랜치에 적용시킬 때 사용하는 명령어
