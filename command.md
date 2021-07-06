@@ -14,7 +14,14 @@
   * 원격저장소 주소를 알려주기 위해 쓰는 명령어. 원격저장소_닉네임으로 원격저장소_url의 원격저장소를 추가하라는 의미
   * ex) git remote add origin https://github.com/Independent-Dev/git_for_team.git
     * 닉네임이 중복되지 않게 하여 하나 이상의 원격저장소를 연결할 수 있음. 
-* git amend
-  * 이전 커밋(버전관리 파일 종류, 내용, 커밋 메시지) 수
-* git cherry-pick
+* git commit --amend
+  * 현재 브랜치의 선두에 커밋 덮어쓰기
+  * 만약에 스테이지에 올라간 파일이 없다면 메시지만 변경
+  * [참조](https://cselabnotes.com/kr/2021/03/31/git-%EB%AA%85%EB%A0%B9%EC%96%B4-git-cherry-pick/)
+    * 이미 해당 커밋을 push하여 원격 저장소의 이력을 덮어써야 할 때에는 git push 대신 git push -f 로 강제 push 실행 필요. 
+* git cherry-pick commit_hash
   * 다른 브랜치에 있는 커밋을 선택적으로 내 브랜치에 적용시킬 때 사용하는 명령어
+  * cherry pick 시 conflict가 생길 경우 아래 두 가지 방식으로 대처 가능
+    * git cherry-pick --abort: cherry pick 중단
+    * conflict 수정 후 커밋
+    * [참조](https://cselabnotes.com/kr/2021/03/31/git-%EB%AA%85%EB%A0%B9%EC%96%B4-git-cherry-pick/)
