@@ -5,8 +5,10 @@
   * HEAD: git의 현재 상태를 보여주는 포인터. 일반적으로 특정 브랜치를 지시하고 있지만, 그렇지 않고 다른 커밋을 가리키고 있을 수도 있음.
     * cat .git/HEAD를 통해 HEAD의 정보 확인 가능
     * [더 많은 정보](https://stackoverflow.com/questions/2304087/what-is-head-in-git)
+  * upstream: 로컬저장소와 연결된 원격저장소를 일컫는 단어
 * component / element
-  * .git
+  * .git: git init 명령으로 생성되는 폴더. 커밋, 커밋을 구성하는 객체, 스테이지가 모두 이 폴더에 저장됨.
+  * working tree: "일반적으로 사용자가 파일과 하위 폴더를 만들고 작업 결과물을 저장하는 곳. 작업 폴더에서 .git을 제외한 나머지 부분. 
 * action
   * add
   * commit
