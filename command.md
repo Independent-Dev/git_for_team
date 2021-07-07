@@ -25,3 +25,13 @@
     * git cherry-pick --abort: cherry pick 중단
     * conflict 수정 후 커밋
     * [참조](https://cselabnotes.com/kr/2021/03/31/git-%EB%AA%85%EB%A0%B9%EC%96%B4-git-cherry-pick/)
+* git reset (--soft | --mixed(default) | --hard)
+  * "HEAD 브랜치를 이동"시키는 명령어, 달리 말하자면 "HEAD는 계속 현재 브랜치를 가리키고 있고, 현재 브랜치가 가리키는 커밋을" 바꾸는 명령(<->checkout 명령어는 HEAD가 가리키는 브랜치를 바꿈)
+  * --soft: git이 관리하는 세 트리, 즉 HEAD, index(stage area), working directory 가운데 HEAD만 변경함
+  * --mixed: HEAD와 index까지 변경함.
+  * --hard: working directory까지 변경함. 변경사항을 **완전히** 날려버리기 때문에 굉장히 신중하게 써야함.
+    * 단, 만약 해당 커밋이 이미 원격저장소에 push된 상태라면 원격저장소에 push된 commit을 지정하고 해당 commit까지 reset 명령어를 실행하면, 원상복구 가능(reset이 HEAD 브랜치가 가리키는 커밋을 변경하는 명령어임을 기억하자!!) 
+  * [참조](https://git-scm.com/book/ko/v2/Git-%EB%8F%84%EA%B5%AC-Reset-%EB%AA%85%ED%99%95%ED%9E%88-%EC%95%8C%EA%B3%A0-%EA%B0%80%EA%B8%B0)
+    * git이 관리하는 세 상태, HEAD/index/working tree에 대한 더 깊은 지식이 필요하다.
+* git revert
+  * 잘못된 커밋을 rollback하는 새로운 커밋을 만드는 명령어, reset보다 더 안전하며, push를 한 상황에서 코드 작업을 초기화할 수 있게 해줌.

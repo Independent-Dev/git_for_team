@@ -12,6 +12,7 @@
   * commit
   * checkout
     * 'In Git terms, a "checkout" is the act of switching between different versions of a target entity. The git checkout command operates upon three distinct entities: files, commits, and branches.'([출처](https://www.atlassian.com/git/tutorials/using-branches/git-checkout))
+      * HEAD를 특정 커밋에서 다른 커밋(또는 다른 커밋을 가리키는 브랜치)으로 옮기는 것
   * merge
   * pull
   * rebase: 머지와 마찬가지로 재배치하고(새로운 베이스로 삼고) 싶은 커밋 또는 브랜치에 명령을 실행해야함.
