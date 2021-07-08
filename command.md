@@ -28,6 +28,9 @@
   * ex) git remote add origin https://github.com/Independent-Dev/git_for_team.git
     * 닉네임이 중복되지 않게 하여 하나 이상의 원격저장소를 연결할 수 있음.
   * git remote -v: 원격저장소 목록 출력
+  * 원격저장소 변경 방법[참조](https://gist.github.com/480/4681b67d2a906db8c6c1321cc678f05f)
+    * 1)해당 remote 제거: git remote remove repository_alias
+    * 2)remote 다시 추가: git git remote add repository_alias repository_url
    
 * git commit --amend
   * 현재 브랜치의 선두에 커밋 덮어쓰기
