@@ -8,7 +8,7 @@
     * --local: 현재 git 저장소에만 유효
     * --global: 현재 사용자를 위한 옵션
     * --system: PC 전체 사용자를 위한 옵션
-  * 변수 확인: git config [--local | --global | --system] -l\
+  * 변수 확인: git config [--local | --global | --system] -l
   * (협업 및 버전 관리를 위한)사용자 등록
     * email: git config --global user.email "user_email"
     * name: git config --global user.name "user_name"
