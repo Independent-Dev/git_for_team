@@ -15,7 +15,8 @@
     * github와 연동하기 위해서는 해당 사이트 계정의 email과 name을 등록해야함.
 
 * git status
-  * Git 워킹트리의 상태를 보는 명령. 해당 내용을 짧게 요약하여 보려면 끝에 -s 옵션 추가(git status -s)
+  * Git 워킹트리의 상태를 보는 명령. 더 정확하게 하자면, working tree와 stage, 그리고 HEAD 세 가지 공간의 차이를 비교해서 보여줌. 
+    * 해당 내용을 짧게 요약하여 보려면 끝에 -s 옵션 추가(git status -s)
 
 * git log
   * 기본적으로 HEAD와 관련된 커밋들이 출력

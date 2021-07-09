@@ -6,7 +6,11 @@
     * cat .git/HEAD를 통해 HEAD의 정보 확인 가능([더 많은 정보](https://stackoverflow.com/questions/2304087/what-is-head-in-git))
     * Detached HEAD: HEAD가 어느 branch도 가리키고 있지 않은 커밋에 위치하여 branch로부터 Detached된 상황. 이 상황에서도 commit을 생성할 수는 있지만, 다른 브랜치로 생성한 순간 Detached HEAD에서 생성한 커밋은 다 사라져 (로그에서) 보이지 않게 됨.
   * upstream: 로컬저장소와 연결된 원격저장소를 일컫는 단어
-  
+  * checksum: 일종의 UUID
+    * 종류
+      * 파일: 내용이 같은 파일은 체크섬도 동일함
+      * 트리
+      * 커밋
 * component / element
   * .git: git init 명령으로 생성되는 폴더. 커밋, 커밋을 구성하는 객체, 스테이지가 모두 이 폴더에 저장됨.
   * working tree: "일반적으로 사용자가 파일과 하위 폴더를 만들고 작업 결과물을 저장하는 곳. 작업 폴더에서 .git을 제외한 나머지 부분. 
